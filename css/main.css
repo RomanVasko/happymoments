@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Yeseva One";
+    src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: "MullerItalic";
+    src: url("../fonts/MullerRegularItalic.ttf");
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/MullerBold.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#header-title {
+    text-align: center;
+    border-bottom: 1px solid rgb(235, 225, 207);
+    padding: 50px 0;
+}
+
+.header-title-text-1 {
+    display: block;
+    font-size: 30px;
+    font-family: "Yeseva One", sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header-title-text-2 {
+    display: block;
+    font-size: 11px;
+    font-family: "Muller", sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    margin-top: 14px;
+    letter-spacing: 1.32px;
+}
+
+#header-items {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.header-item {
+    font-size: 12px;
+    font-family: "Muller", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.header-item:hover {
+    color: rgb(230, 169, 54);
+}
+
+#photo {
+    height: 800px;
+    background-image: url("../images/analise-benevides.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#description {
+    padding: 130px 0;
+}
+
+#description-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#description-title {
+    font-size: 45px;
+    font-family: "Yeseva One", sans-serif;;
+    color: rgb(153, 110, 28);
+    width: 585px;
+}
+
+#description-text {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+    margin-right: 24px;
+    box-sizing: border-box;
+}
+
+#description-text-1 {
+    font-size: 15px;
+    font-family: "Muller", sans-serif;;
+    color: rgb(153, 110, 28);
+    line-height: 1.27;
+    width: 486px;
+}
+
+#description-text-2 {
+    padding-top: 50px;
+    max-width: 588px;
+}
+
+.description-items {
+    display: inline-block;
+    width: 282px;
+}
+
+.description-items:first-child, .description-items:nth-child(2) {
+    margin-bottom: 46px;
+}
+
+.description-item {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;;
+    color: rgb(153, 110, 28);
+    line-height: 1.11;
+}
+
+.description-item span {
+    margin-right: 12px;
+    color: #dc9229;
+}
+
+.description-item span:hover {
+    color: #996e1c;
+}
+
+.description-item-text {
+    font-size: 15px;
+    font-family: "Muller", sans-serif;;
+    color: rgb(153, 110, 28);
+    margin-top: 12px;
+    line-height: 1.27;
+}
+
+#description-photo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.description-img {
+    display: inline-block;
+}
+
+.description-img:first-child {
+    margin-right: 24px;
+}
+
+#newlyweds {
+    background: #faf7f2;
+    padding-top: 120px;
+    padding-bottom: 83px;
+}
+
+#newlyweds-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#newlyweds-title {
+    font-size: 45px;
+    font-family: "Yeseva One", sans-serif;;
+    color: rgb(153, 110, 28);
+    margin-bottom: 60px;
+}
+
+#newlyweds-images {
+    margin: 0 -12px;
+}
+
+.newlyweds-image {
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 0;
+}
+
+.newlyweds-text {
+    font-size: 18px;
+    font-family: "MullerItalic", sans-serif;
+    color: rgb(197, 182, 152);
+    margin-top: 20px;
+}
+
+#footer {
+    background: #f1d2bd;
+    padding: 27px 0;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer-icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 340px;
+}
+
+#footer-text {
+    font-size: 11px;
+    font-family: "MullerItalic", sans-serif;
+    color: rgb(153, 110, 28);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 301px;
+}
+
+#footer-title {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+svg {
+    height: 30px;
+    fill: #996e1c;
+}
+
+svg:hover {
+    fill: #644304;
+}
+
+svg:first-child, svg:nth-child(2) {
+    margin-right: 9px;
+}
+
+
